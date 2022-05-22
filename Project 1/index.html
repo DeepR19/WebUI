@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./facebook-new.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>Manjeet Bhai || Tutor || GURU</title>
+</head>
+<body>
+    <div class="container">
+        <div class="ham">
+            <li></li>
+            <li></li>
+            <li></li>
+        </div>
+        <div class="header ">
+            <div class="none"></div>
+            <nav>
+                <li>Home</li>
+                <li>Our Service</li>
+                <li>Pricing</li>
+                <li>Support</li>
+                <li>|</li>
+                <li>Get Started</li>
+            </nav>
+
+            <div class="info">
+                <li>Sign In</li>
+                <span>search</span>
+            </div>
+        </div>
+        <!-- </div> -->
+        <section>
+            <div class="section-data">
+                <h1>Time is Money</h1>
+
+                <h3>Time to get Organised</h3>
+                <li class="line"></li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quod minus praesentium non, dolorum accusamus numquam esse possimus ad eum. Quod, ad quis?</p>
+
+                <div class="buttons">
+                    <button>Get Started</button>
+                    <button>Read our Stories</button>
+            </div>
+            </div>
+            <div class="section-img">
+                <img src="./assests/re.webp" alt="">
+
+            </div>
+        </section>
+
+
+        <footer>
+            <li>
+                <img src="./assests/facebook-new.png" alt="">
+            </li>
+            <li>
+                
+                <img src="./assests/gmail-new.png" alt="">
+            </li>
+            <li>
+            <img src="./assests/instagram-new.png" alt="">
+
+            </li>
+        </footer>
+    </div>
+
+
+
+
+    <script>
+        let dov = document.querySelector('.ham');
+        dov.addEventListener("click",()=>{
+            document.querySelector(".header").classList.toggle("active")
+            dov.classList.toggle("active")
+        })
+        window.addEventListener("resize",()=>{
+            if(window.outerWidth > 1200){
+                document.querySelector(".header").classList.remove("active")
+            }
+
+        })
+            // console.log()
+    </script>
+</body>
+</html>

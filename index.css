@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    /* background: #fff2; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 460px;
+    width: 300px;
+    background: #fff;
+}
+.card .span{
+    content: '';
+    position: absolute;
+    height: 473px;
+    width: 300px;
+    margin-top: -6px;
+    transform: skew(2deg);
+    background: linear-gradient(25deg,#c20e0e,#2ae3fc,#ad37fc, #0000);rgba(0, 0, 0, 0)rgba(15, 255, 75, 0)#0fff4b00#0fff4b
+    box-shadow: 2px 2px 5px #fff;
+    z-index: -1;
+}
